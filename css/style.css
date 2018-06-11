@@ -1,0 +1,49 @@
+body {
+  overflow-x:hidden;}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+.btn {
+  -webkit-animation-duration:5s;
+  -webkit-animation-delay:0.2s;
+  -webkit-animation-iteration-count:infinite;
+}
+
+#slider .carousel-item {
+  height: 780px;
+}
+
+.carousel-image-1 {
+  background: url("../img/4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-image-2 {
+  background: url("../img/10.jpg");
+  background-size: cover; 
+  background-position: center center;
+}
+
+.carousel-image-3 {
+  background: url("../img/2.jpg");
+  background-size: cover; 
+  background-position: center center;
+}
+
+.carousel-image-4 {
+  background: url("../img/1.jpg");
+  background-size: cover; 
+  background-position: center center;
+}
+
+.captions .card {
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:0.01s;
+}
