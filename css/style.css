@@ -20,19 +20,19 @@ body {
 }
 
 .carousel-image-1 {
-  background: url("../img/4.jpg");
+  background: url("../img/brian2.jpg");
   background-size: cover;
-  background-position: center center;
-}
+/*  background-position: center center;
+*/}
 
 .carousel-image-2 {
-  background: url("../img/10.jpg");
+  background: url("../img/brian1.jpg");
   background-size: cover; 
   background-position: center center;
 }
 
 .carousel-image-3 {
-  background: url("../img/2.jpg");
+  background: url("../img/brian3.jpg");
   background-size: cover; 
   background-position: center center;
 }
@@ -47,3 +47,21 @@ body {
   -webkit-animation-duration:3s;
   -webkit-animation-delay:0.01s;
 }
+
+.about {
+  border-bottom: 1px solid #17a2b8; /* '#17a2b8' Info color codes */
+  border-left: 1px solid #17a2b8;
+}
+
+#about .brian {
+  -webkit-animation-duration:10s;
+  -webkit-animation-delay:0.4s;
+  -webkit-animation-iteration-count:infinite;
+}
+
+#about .fa-arrow-down {
+  -webkit-animation-duration:10s;
+  -webkit-animation-delay:0.4s;
+  -webkit-animation-iteration-count:infinite;
+}
+

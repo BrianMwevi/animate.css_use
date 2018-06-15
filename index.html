@@ -13,21 +13,21 @@
 <body id="home">
    <nav class="navbar navbar-expand-md navbar-light fixed-top p-0">
     <div class="container">
-      <a href="index.html" class="navbar-brand"><img src="img/mlogo.png" alt="Logo" width="75" height="75"><h3 class="d-inline align-middle">Mizure</h3></a>
+      <a href="#home" class="navbar-brand"><img src="img/mlogo.png" alt="Logo" width="75" height="75"><h3 class="d-inline align-middle">Mizure</h3></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="#authors" class="nav-link">Authors</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contact Us   </a></li>
+          <li class="nav-item"><a href="#home" class="nav-link text-info active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link text-info">About Us</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link text-info">Authors</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link text-info">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section>
-  	<div id="slider">
+  <section class="pb-0">
+  	<div id="slider"> 
   		<div class="container-fluid p-0">
   			<div class="row">
   				<div class="col-sm-12 col-md-12">
@@ -63,10 +63,10 @@
 							</div>
 							<div class="carousel-item carousel-image-2 animated flipInY">
 								<div class="row justfy-content-end">
-									<div class="" style="margin-top: 700px;">
+									<div class="col-sm-6 col-md-8 col-lg-3 pl-5" style="margin-top: 700px;">
 										<div class="carousel-caption ">
 											<div class="captions">
-												<div class="card bg-info animated flipInY">
+												<div class="card bg-info animated flipInX">
 													<div class="card-header">
 														<h5>Houses at an affordable price. </h5>
 													</div>
@@ -83,7 +83,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="carousel-item carousel-image-3 animated rotateInUp">
+							<div class="carousel-item carousel-image-3 animated bounce">
 								<div class="row justfy-content-end">
 									<div class="col-sm-6 col-md-4 col-lg-3 pl-5" style="margin-top: 700px;">
 										<div class="carousel-caption ">
@@ -135,9 +135,113 @@
 	</div>
   </section>
 
-  <section id="about">
+    <!-- ABOUT ME SECTION -->
+  <section id="about" class="pb-5">
+  	<div class="container-stretch">
+  		<div class="py-4 bg-info" style="width:100%">
+  			<h1 class="mx-auto text-center bg-white text-info brian animated flash" style="width:20%;">
+  				<span>
+  					<strong>Who Is Brian?</strong>
+  				</span>
+  			</h1>
+  		</div>
+  		<div class="row px-0 mx-0">
+  			<div class="col-md-6 pt-2 about">
+  				<div class="text-center py-5 mt-3 ">
+  				<h6 class="text-center text-info">Click the buttons</h6>
+  				<div class="fa-arrowDown">
+  					<i class="fa fa-arrow-down text-info p-0 m-0 animated hinge"></i>
+  				</div>
+					<div><hr>
+
+						<div class="pb-4">
+							<button data-toggle="collapse" data-target="#tunapanda" class="btn btn-info">
+								<h6>
+									<strong>@Tunapanda</strong>
+								</h6>
+							</button>
+							<span class="pl-4">
+								<i class="fa fa-arrow-right text-info"></i>
+							</span>
+							<span class="pl-4">
+								<button  class="btn btn-outline-info" data-toggle="collapse" data-target="#tunapanda"><strong>#</strong>Knowledge</button>
+							</span>
+						</div>
+						<div id="tunapanda" class="collapse">
+							<p class="text-mute">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  					consequat.
+	  						</p>
+						<button class="btn btn-outline-info">See works>></button>
+		  				</div>
+		  			</div><hr>
+
+  					<div class="pb-4">
+	  					<div>
+							<button data-toggle="collapse" data-target="#leisure" class="btn btn-info mr-2 ml-2">
+								<h6><strong>@Leisure</strong></h6>
+							</button>
+							<span class="pl-4 pr-1"><i class="fa fa-arrow-right text-info"></i></span>
+							<span class="pl-3"><button class="btn btn-outline-info ml-4" data-toggle="collapse" data-target="#leisure"><strong>#</strong>Happy</button></span>
+						</div>
+	  					<div id="leisure" class="collapse">
+		  					<p  class="text-mute">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  					consequat.
+	  						</p>
+	  					</div>
+	  				</div>
+  					<hr>
+
+  					<div class="pb-4">
+	  					<div>
+							<button data-toggle="collapse" data-target="#rock" class="btn btn-info ml-5">
+								<h6><strong>@Rock</strong></h6>
+							</button>
+							<span class="ml-4"><i class="fa fa-arrow-right text-info"></i></span>
+							<span class="pl-4"><button class="btn btn-outline-info" data-toggle="collapse" data-target="#rock"><strong class="text-primary">#</strong>Compassion</button></span>
+						</div>
+	  					<div id="rock" class="collapse">
+		  					<p  class="text-mute">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  					consequat.
+	  						</p>
+	  					</div>
+	  				</div>
+  					<hr>
+  					<button data-toggle="collapse" data-target="#future" class="btn btn-info mr-1">
+  						<h6><strong>@Future</strong></h6>
+  					</button>
+  					<div id="future" class="collapse">
+  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  					consequat.
+  					</div>
+  					<hr>
+  				</div>
+  			</div>
+  			<div class="col-md-6 pb-5 d-fluid bg-info about">
+				<div class="mb-3">
+					<img src="img/brian.jpg" class="img-fluid max-width:100% height:auto rounded-circle mx-auto d-block mb-5 " style="width:74%;">
+				</div>
+			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <!-- WORKS SECTION -->
+  <section id="work">
   	<div class="container-fluid pt-5">
-  		<h1 class="display-4 text-center text-info"><strong>Explore New Houses In Town</strong></h1>
+  		<div class="bg-info mx-auto py-2" style="width:50%;">
+  			<h1 class="col-xm-display-4 text-center text-white">Explore New Houses In Town</h1>
+  		</div>
   		<div class="row">
 			<div class="col-4">
 				<div id="slider1" class="carousel pt-3" data-ride="carousel">
@@ -159,6 +263,11 @@
 					<div class="carousel-inner" role="listbox">	
 						<div class="carousel-item active">
 							<img class="d-block img-fluid" src="img/2.jpg" alt="First Image">
+						</div>
+						<div class="carousel-caption">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 						</div>
 						<div class="carousel-item">
 							<img class="d-block img-fluid" src="img/4.jpg" alt="Second Image">
@@ -236,19 +345,9 @@
   	</div>
   </section>
 
- <!-- ANIMATE.CSS TEST -->
-  <section class="py-5">
-	 <div class="container">
-	 	<div class="row">
-	 		<div class="col-12 text-center">
-	 			 <div class=" text-center">
-				  	<button class="btn btn-outline-primary animated hinge">Offer of The Day!!</button>
-				  	<input type="text" class="form-control" placeholder="Test...">
-	 			 </div>
-	 		</div>
-	 	</div>
-	 </div>
-  </section>
+
+
+
 
   <!-- FOOTER AREAD -->
   <footer class="bg-primary pt-5 text-white" id="mainFooter">
@@ -263,6 +362,8 @@
   </footer>
 
 
+
+  <script type="text/javascript" src="js/animate.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
