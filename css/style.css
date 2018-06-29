@@ -63,13 +63,15 @@ h1,h2,h3,h4,h5{
 */  background-attachment: scroll;
 }
 
-.home_buttons {
-  margin-top:-280px;
+.captions {
+  margin-left: 40px;
+}
+.btnHome {
+  margin-bottom: 260px;
 }
 
 .fa-angle-double-down {
   font-size: 80px;
-  margin-top: 300px;
   -webkit-animation-duration:0.2s;
   -webkit-animation-delay:0.1s;
   -webkit-animation-iteration-count:infinite;
