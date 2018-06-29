@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5{
 */}
 
 .carousel-image-2 {
-  background: url("../img/home.jpg");
+  background: url("../img/back1.jpg");
   background-size: cover; 
   background-position: center center;
   background-attachment: scroll;
@@ -57,15 +57,34 @@ h1,h2,h3,h4,h5{
 }
 
 .carousel-image-4 {
-  background: url("../img/back1.jpg");
+  background: url("../img/back4.jpg");
   background-size: cover; 
-  background-position: center center;
-  background-attachment: scroll;
+/*  background-position: center center;
+*/  background-attachment: scroll;
+}
+
+.home_buttons {
+  margin-top:-280px;
+}
+
+.fa-angle-double-down {
+  font-size: 80px;
+  margin-top: 300px;
+  -webkit-animation-duration:0.2s;
+  -webkit-animation-delay:0.1s;
+  -webkit-animation-iteration-count:infinite;
 }
 
 .captions .card {
   -webkit-animation-duration:3s;
   -webkit-animation-delay:0.01s;
+  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  position: relative;
+  overflow: visible;
+  background-color: transparent;
+  border: none;
 }
 
 /*.about {
@@ -132,13 +151,16 @@ h1,h2,h3,h4,h5{
   height: 550px;
 
 }
-.service-item .fa {
-  font-size:40px;
+ .fa {
   background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
   background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
   background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
   -webkit-background-clip: text;
   color:transparent;
+}
+
+.service-item .fa{
+  font-size:40px;  
 }
 
 #contact {
@@ -147,4 +169,8 @@ h1,h2,h3,h4,h5{
 
 .required {
   color: red;
+}
+
+.text-normal {
+  font-weight: normal;
 }
