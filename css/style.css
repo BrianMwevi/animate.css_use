@@ -1,5 +1,7 @@
 body {
   overflow-x:hidden;
+  padding: 0;
+  margin: 0;
 }
 
 h1,h2,h3,h4,h5{
@@ -13,16 +15,13 @@ h1,h2,h3,h4,h5{
 }
 
 .navbar {
-/*  border-bottom: 1px solid rgba(240,240,240,0.6);
-*//*  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-bottom: 1px solid rgba(240,240,240,0.6);
+  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
   background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);*/
-  background: rgba(0,0,0,0.6);
-/*  opacity: 0.9; 
-*/}
-
-.activee{
-  border-bottom:2px solid #fff;
+  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+/*  background: rgba(0,0,0,0.6);
+*/
+  opacity: 0.9;
 }
 
 .btn {
@@ -63,11 +62,22 @@ h1,h2,h3,h4,h5{
 */  background-attachment: scroll;
 }
 
+.btn {
+  border-radius: 4px;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
 .captions {
   margin-left: 40px;
 }
 .btnHome {
   margin-bottom: 260px;
+  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
 }
 
 .fa-angle-double-down {
@@ -175,4 +185,9 @@ h1,h2,h3,h4,h5{
 
 .text-normal {
   font-weight: normal;
+}
+
+.projects {
+   background:rgba(0,0,0,0.8);
+   height: 200px;
 }
