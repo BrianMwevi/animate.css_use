@@ -253,10 +253,10 @@ h1,h2,h3,h4,h5{
   width: 400px;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
-  animation: spin 100s infinite linear;
-  -moz-animation: spin 100s infinite linear;
-  -o-animation: spin 100s infinite linear;
-  -webkit-animation: spin 100s infinite linear;
+  animation: spin 40s infinite linear;
+  -moz-animation: spin 40s infinite linear;
+  -o-animation: spin 40s infinite linear;
+  -webkit-animation: spin 40s infinite linear;
 }
 
 .image {
