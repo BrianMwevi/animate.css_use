@@ -111,6 +111,7 @@ h1,h2,h3,h4,h5{
   background-position: center center;
   background-attachment: fixed; 
 }
+
 #about .brian {
   -webkit-animation-duration:10s;
   -webkit-animation-delay:0.4s;

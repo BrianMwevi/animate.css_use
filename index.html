@@ -33,12 +33,6 @@
   			<div class="row">
   				<div class="col-sm-12 col-md-12">
   					<div id="mainSlider" class="carousel" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li class="active" data-target="mainSlider" data-slide pt-3-to="0"></li>
-							<li data-target="mainSlider" data-slide pt-3-to="1"></li>
-							<li data-target="mainSlider" data-slide pt-3-to="2"></li>
-							<li data-target="mainSlider" data-slide pt-3-to="3"></li>
-						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item carousel-image-1 animated flipInX active">
 								<div class="row">
@@ -140,6 +134,12 @@
 									</div>
 								</div>
 							</div>
+							<a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+							<a class="carousel-control-next" href="#mainSlider" data-slide="next" role="button">
+								<span class="carousel-control-next-icon"></span>
+							</a>
 						</div>
 					</div>
   				</div>
@@ -149,7 +149,7 @@
   </section>
 
     <!-- ABOUT ME SECTION -->
-  <section id="about" class="pb-5">
+  <section id="about">
   	<div class="container-stretch">
   		<div class="py-4 bg-info" style="width:100%">
   			<h1 class="mx-auto text-center bg-white text-info brian animated flash" style="width:20%;">
@@ -159,14 +159,14 @@
   			</h1>
   		</div>
   		<div class="row px-0 mx-0">
-  			<div class="col-md-6 pt-2 about space  text-white">
+  			<div class="col-md-6 pt-2 about space text-white">
   				<div class="text-center py-5 mt-3">
   					<h6 class="text-center text-info">Click the buttons</h6>
   					<div class="fa-arrowDown">
   					<i class="fa fa-arrow-down text-info p-0 m-0 animated hinge"></i>
   				</div>
-					<div><hr>
-
+					<div>
+						<hr>
 						<div class="pb-4">
 							<button data-toggle="collapse" data-target="#tunapanda" class="btn btn-outline-info">
 								<h6>
@@ -177,7 +177,9 @@
 								<i class="fa fa-arrow-right text-info"></i>
 							</span>
 							<span class="pl-4">
-								<button  class="btn btn-outline-info" data-toggle="collapse" data-target="#tunapanda"><strong>#</strong>Knowledge</button>
+								<button  class="btn btn-outline-info" data-toggle="collapse" data-target="#tunapanda">
+									<strong>#</strong>Knowledge
+								</button>
 							</span>
 						</div>
 						<div id="tunapanda" class="collapse active">
@@ -189,15 +191,23 @@
 	  						</p>
 						<button class="btn btn-info">See works>></button>
 		  				</div>
-		  			</div><hr>
-
+		  			</div>
+		  			<hr>
   					<div class="pb-4">
 	  					<div>
 							<button data-toggle="collapse" data-target="#leisure" class="btn btn-outline-info mr-2 ml-2">
-								<h6><strong>@Leisure</strong></h6>
+								<h6>
+									<strong>@Leisure</strong>
+								</h6>
 							</button>
-							<span class="pl-4 pr-1"><i class="fa fa-arrow-right text-info"></i></span>
-							<span class="pl-3"><button class="btn btn-outline-info ml-4" data-toggle="collapse" data-target="#leisure"><strong>#</strong>Happy</button></span>
+							<span class="pl-4 pr-1">
+								<i class="fa fa-arrow-right text-info"></i>
+							</span>
+							<span class="pl-3">
+								<button class="btn btn-outline-info ml-4" data-toggle="collapse" data-target="#leisure">
+									<strong>#</strong>Happy
+								</button>
+							</span>
 						</div>
 	  					<div id="leisure" class="collapse">
 		  					<p  class="text-mute">
@@ -213,10 +223,18 @@
   					<div class="pb-4">
 	  					<div>
 							<button data-toggle="collapse" data-target="#rock" class="btn btn-outline-info ml-5">
-								<h6><strong>@Rock</strong></h6>
+								<h6>
+									<strong>@Rock</strong>
+								</h6>
 							</button>
-							<span class="ml-4"><i class="fa fa-arrow-right text-info"></i></span>
-							<span class="pl-4"><button class="btn btn-outline-info" data-toggle="collapse" data-target="#rock"><strong class="text-primary">#</strong>Compassion</button></span>
+							<span class="ml-4">
+								<i class="fa fa-arrow-right text-info"></i>
+							</span>
+							<span class="pl-4">
+								<button class="btn btn-outline-info" data-toggle="collapse" data-target="#rock">
+									<strong class="text-primary">#</strong>Compassion
+								</button>
+							</span>
 						</div>
 	  					<div id="rock" class="collapse">
 		  					<p  class="text-mute">
@@ -229,7 +247,9 @@
 	  				</div>
   					<hr>
   					<button data-toggle="collapse" data-target="#future" class="btn btn-outline-info mr-1">
-  						<h6><strong>@Future</strong></h6>
+  						<h6>
+  							<strong>@Future</strong>
+  						</h6>
   					</button>
   					<div id="future" class="collapse">
   						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -250,7 +270,8 @@
   </section>
 
   <!-- WORKS SECTION -->
-  <section id="work" class="pb-5 mt-4">
+  <section id="work" class="py-5 ">
+  	<h1 class="text-center">Skills</h1>
   	<div class="container-fluid py-5">
   		<div class="row">
   			<div class="col-md-6 test">
@@ -283,7 +304,8 @@
 				  		</div>
 			  	</div>
 				 <div class="mb-4">
-				  		<div class="mx-auto">Digtial Marketing<span class="test mr-5 pr-5"> 70%</span>
+				  		<div class="mx-auto">Digtial Marketing
+				  			<span class="test mr-5 pr-5"> 70%</span>
 				  		</div>
 				  		<div class="progress">
 				  			<div class="progress-bar bg-success " style="width:70%; height: 8px;"></div>
@@ -364,14 +386,14 @@
   	</div>
   	<div id="wrapper" class="pb-5 mb-5 wrapper">
 		<div id="image">
-			<div class="image i1"><a href="#about"><img src="img/portfolio/home.jpg"></div></a>
-			<div class="image i2"><a href="#about"><img src="img/portfolio/portTheme.png"></div></a>
-			<div class="image i3"><a href="#about"><img src="img/portfolio/glozzom.png"></div></a>
-			<div class="image i4"><a href="#about"><img src="img/portfolio/loopLab.png"></div></a>
-			<div class="image i5"><a href="#about"><img src="img/portfolio/mizuxe.jpg"></div></a>
-			<div class="image i6"><a href="#about"><img src="img/portfolio/acme.jpg"></div></a>
-			<div class="image i7"><a href="#about"><img src="img/portfolio/home.jpg"></div></a>
-			<div class="image i8"><a href="#about"><img src="img/portfolio/home.jpg"></div></a>
+			<div class="image i1"><a href="#about"><img src="img/portfolio/home.jpg"></a></div>
+			<div class="image i2"><a href="#about"><img src="img/portfolio/portTheme.png"></a></div>
+			<div class="image i3"><a href="#about"><img src="img/portfolio/glozzom.png"></a></div>
+			<div class="image i4"><a href="#about"><img src="img/portfolio/loopLab.png"></a></div>
+			<div class="image i5"><a href="#about"><img src="img/portfolio/mizuxe.jpg"></a></div>
+			<div class="image i6"><a href="#about"><img src="img/portfolio/acme.jpg"></a></div>
+			<div class="image i7"><a href="#about"><img src="img/portfolio/home.jpg"></a></div>
+			<div class="image i8"><a href="#about"><img src="img/portfolio/home.jpg"></a></div>
 		</div>
 	</div>
   </section>
