@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3, h4{
   font-weight: normal;
   color:#17a2b8;
 }
@@ -319,41 +319,50 @@ h1,h2,h3,h4,h5{
 /*TESTIMONIAL STARTS HERE*/
 #testimonial {
   margin-top: 108px;
-  padding-bottom: 0;
   background: url("../img/back1.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
 
-.testimonial h4 {
-  color: #fff !important;
-}
-
-.testi_image {
+.testimon_bg {
   background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
   background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
   background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
-.testi_image1 {
-  background-image: -webkit-linear-gradient(180deg, #744fff 0%, #20d497 100%);
-  background-image: -moz-linear-gradient(180deg, #744fff 0%, #20d497 100%);
-  background-image: -ms-linear-gradient(180deg, #744fff 0%, #20d497 100%);
-  border-radius: 15px 15px 0 0;
+.testimon_bg1 {
+  background-image: -webkit-linear-gradient(180deg,#744fff  0%, #20d497 100%);
+  background-image: -moz-linear-gradient(180deg,#744fff  0%, #20d497 100%);
+  background-image: -ms-linear-gradient(180deg,#744fff  0%, #20d497 100%);
+  border-radius: 10px 10px 0 0;
 }
 
-.testimonial img {
-  border-radius: 50%;
-  width: 80%;
-  margin: 0 auto;
+.testimon_image img {
+  border-radius:50%;
+  width: 280px;
+  margin:auto;
 }
 
-/*.testi_body {
-  background-color: #17a2b8;
+.testimon_text {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
 }
-*/
+
+.testimon_text_header {
+text-shadow: 2px 2px 5px #000;
+}
+
+.carousel-control-prev {
+  margin-left: -150px;
+}
+
+.carousel-control-next {
+  margin-right: -150px;
+}
+
 #contact {
   background-color: rgba(0,0,0,0.1);
 }
