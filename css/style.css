@@ -147,14 +147,12 @@ h1,h2,h3,h4,h5{
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  width: 100%;
-  height:100%;
   color:#fff;
 }
 
 .overlay {
   background: rgba(0,0,0,0.8);
-  height: 720px;
+  height: auto;
 
 }
 .fa {
@@ -188,19 +186,18 @@ h1,h2,h3,h4,h5{
   font-weight: normal;
 }
 
-.projects {
-   background:rgba(0,0,0,0.8);
-   height: 200px;
-}
-
 
 /*PROJECTS DISPLAY STARTS HERE*/
+.projects {
+   background:rgba(0,0,0,0.8);
+}
+
 #wrapper {
   padding-top: 50px;
   perspective: 2500;
   -webkit-perspective: 2500;
   width: 800px;
-  margin:-80px auto;
+  margin:0 auto;
   perspective-origin: 50% 150px;
   -webkit-perspective-origin: 50% 150px;
   transition: perspective, 1s;
@@ -314,18 +311,49 @@ h1,h2,h3,h4,h5{
   -webkit-transform: rotateY(315deg) translateZ(485px);
 }
 
-img {
+/*img {
   border-radius: 15px;
-}
+}*/
 /*PROJECTS DISPLAY ENDS HERE*/
 
-#contact {
-/*  background-image:url("../img/contact.jpg");
-*/  margin-top: 180px;
-  background-color: rgba(0,0,0,0.1);
-/*  background-blend-mode: screen;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+/*TESTIMONIAL STARTS HERE*/
+#testimonial {
+  margin-top: 108px;
+  padding-bottom: 0;
+  background: url("../img/back1.jpg");
   background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
-}*/
+}
+
+.testimonial h4 {
+  color: #fff !important;
+}
+
+.testi_image {
+  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-radius: 15px 15px 0 0;
+}
+
+.testi_image1 {
+  background-image: -webkit-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  background-image: -moz-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  background-image: -ms-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  border-radius: 15px 15px 0 0;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*.testi_body {
+  background-color: #17a2b8;
+}
+*/
+#contact {
+  background-color: rgba(0,0,0,0.1);
+}
